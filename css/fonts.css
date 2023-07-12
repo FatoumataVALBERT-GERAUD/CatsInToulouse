@@ -1,0 +1,10 @@
+/* font-family:Abel */
+@font-face {
+  font-family: Monserrat;
+  src: url(../fonts/Monserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Poiret;
+  src: url(../fonts/Poiret_One/PoiretOne-Regular.ttf);
+}
