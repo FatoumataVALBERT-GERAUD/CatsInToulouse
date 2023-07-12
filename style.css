@@ -9,4 +9,24 @@
 
 body {
   -webkit-font-smoothing: antialiased;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 0 1rem;
+}
+
+a {
+  text-decoration: none;
 }
