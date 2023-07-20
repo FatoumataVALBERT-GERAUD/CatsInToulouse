@@ -1,0 +1,62 @@
+
+@import url(../css/fonts.css);
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+:root {
+  /*   theme colors  */
+  --bg-color: hsla(280, 94%, 57%, 0.11);
+  --titles: hsl(280, 92%, 50%);
+  --text: hsl(265, 95%, 8%);
+
+  /*   theme font-family  */
+  --Monserrat:'Monserrat', cursive;
+  --Poiret:'Poiret', cursive;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  color: var(--titles);
+  font-family: var(--Poiret);
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 0 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 2rem ;
+}
+
+section {
+  height: 100vh;
+}
+
+footer {
+  color: var(--titles);
+  font-family: var(--Poiret);
+  font-weight: 600;
+}
