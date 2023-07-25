@@ -13,8 +13,11 @@
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  background-color: var(--bg-color);
+  background: linear-gradient(180deg, hsla(279, 92%, 95%, 1) 0%, hsla(279, 97%, 62%, 1) 100%);
   font-family: var(--Monserrat);
   color: var(--text);
+}
+
+.card-img-bt {
+  min-height: 28vh;
 }
