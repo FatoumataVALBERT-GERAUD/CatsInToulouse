@@ -1,14 +1,6 @@
 
 @import url(../css/fonts.css);
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
 :root {
   /*   theme colors  */
   --bg-color: hsla(280, 94%, 57%, 0.11);
@@ -25,55 +17,4 @@ body {
   background-color: var(--bg-color);
   font-family: var(--Monserrat);
   color: var(--text);
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem;
-  color: var(--titles);
-
-  font-family: var(--Poiret);
-  font-weight: 600;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-}
-
-li {
-  padding: 0 1rem;
-}
-
-a {
-  text-decoration: none;
-  color: var(--titles);
-}
-
-.container {
-  padding: 2rem ;
-}
-
-section {
-  height: 100vh;
-}
-
-#Home #Booking #FAQ {
-  display: flex;
-}
-
-h2 {
-  color: var(--titles);
-  font-size: 3rem;
-}
-
-#Home img {
-  width: 30vw;
-}
-
-footer {
-  color: var(--titles);
-  font-family: var(--Poiret);
-  font-weight: 600;
 }
