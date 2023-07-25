@@ -3,103 +3,193 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
   <title>CatsInToulouse</title>
 </head>
 <body>
   <header>
-    <nav>
-      <div class="nav-brand">
-        <a href="#">CatsInToulouse</a>  
-      </div>
-      <div class="nav-links">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Testimonies</a></li>
-          <li><a href="#">Book a petsitting</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CatsInToulouse</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Testimonies">Testimonies</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Booking">Book a petsitting</a></li>
+            <li class="nav-item"><a class="nav-link" href="#FAQ">FAQ</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
   <main>
     <div class="container">
 
-      <section id="Home">
-        <div class="Home1">
-          <h2>Home</h2>
+      <section id="Home" class="row py-4 vh-100">
+        <div class="col">
+          <h2>Lorem ipsum dolor sit amet consectetur</h2>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus rerum nemo qui, quasi sed voluptatum voluptates explicabo exercitationem quibusdam! Similique alias non rerum unde labore.</p>
         </div>
         
-        <div class="Home2">
+        <figure class="figure col text-center">
           <img class="main_image" src="./assets/casual-life-3d-cat-sitting-on-bookshelf.png" alt="">
-          Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
-        </div>
+          <figcaption  class="figure-caption">Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+        </figure>
       </section>
 
-      <section>
+      <section id="About" class="row py-4 vh-100">
         <h2>About</h2>
-        <div class="About1">
+        <figure class="figure col text-center">
           <img src="./assets/casual-life-3d-young-man-sitting-on-sofa-with-cat-next-to-him.png" alt="">
-          Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
-        </div>
-        <div class="About2">
+          <figcaption  class="figure-caption">Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+        </figure>
+        <div class="col">
           <h3>why choose us</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum assumenda ipsam doloribus fugit molestias voluptates, sunt quam incidunt error velit distinctio ex sed nemo quod.</p>
         </div>
       </section>
 
-      <section>
+      <section id="Testimonies" class="row py-4 vh-100">
         <h2>Testimonies</h2>
-        <div class="Testimonies1">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis adipisci repudiandae quaerat inventore harum accusamus molestiae eligendi animi, explicabo non, sequi ipsum tempore eveniet sapiente at qui porro architecto similique cum debitis. Voluptates explicabo tempora, corrupti, dicta dolorem est fugiat voluptatem unde expedita sapiente harum. Similique obcaecati repellat vel ullam.</p>
-          <img src="./assets/3d-casual-life-cat-lies-on-open-books.png" alt="">
-          Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Nestor</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">3ans</h6>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis adipisci repudiandae quaerat inventore harum accusamus molestiae eligendi animi</p>
+            </div>
+            <figure class="figure text-center">
+              <img class="card-img-bt" src="./assets/3d-casual-life-cat-lies-on-open-books.png" alt="">
+              <figcaption class="figure-caption">Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+            </figure>
+          </div>
         </div>
-        <div class="Testimonies2">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis adipisci repudiandae quaerat inventore harum accusamus molestiae eligendi animi, explicabo non, sequi ipsum tempore eveniet sapiente at qui porro architecto similique cum debitis. Voluptates explicabo tempora, corrupti, dicta dolorem est fugiat voluptatem unde expedita sapiente harum. Similique obcaecati repellat vel ullam.</p>
-          <img src="./assets/3d-casual-life-cat-on-books-plant.png" alt="">
-          Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Nestor</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">3ans</h6>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis adipisci repudiandae quaerat inventore harum accusamus molestiae eligendi animi</p>
+            </div>
+            <figure class="figure text-center">
+              <img class="card-img-bt" src="./assets/casual-life-3d-cat-in-box.png" alt="">
+              <figcaption class="figure-caption">Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+            </figure>
+          </div>
         </div>
-        <div class="Testimonies3">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis adipisci repudiandae quaerat inventore harum accusamus molestiae eligendi animi, explicabo non, sequi ipsum tempore eveniet sapiente at qui porro architecto similique cum debitis. Voluptates explicabo tempora, corrupti, dicta dolorem est fugiat voluptatem unde expedita sapiente harum. Similique obcaecati repellat vel ullam.</p>
-          <img src="./assets/casual-life-3d-cat-in-box.png" alt="">
-          Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Nestor</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">3ans</h6>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis adipisci repudiandae quaerat inventore harum accusamus molestiae eligendi animi</p>
+            </div>
+            <figure class="figure text-center">
+              <img class="card-img-bt" src="./assets/3d-casual-life-cat-on-books-plant.png" alt="">
+              <figcaption class="figure-caption">Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+            </figure>
+          </div>
         </div>
       </section>
 
-      <section>
+      <section id="Booking" class="row py-4 vh-100">
         <h2>Book a petsitting</h2>
-        <div class="Booking1">
-          <img src="./assets/casual-life-3d-female-sitting-on-the-floor-with-cup-in-hand-and-laptop-on-leg.png" alt="">
-          Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
-        </div>
-        <div class="Booking2">
-          Google calendar
-        </div>
+        <figure class="figure col text-center">
+          <img class="card-img-bt" src="./assets/casual-life-3d-female-sitting-on-the-floor-with-cup-in-hand-and-laptop-on-leg.png" alt="">
+          <figcaption class="figure-caption">Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+        </figure>
+        
+        <iframe  class="col" src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FParis&showPrint=0&showCalendars=0&showTabs=0&showTz=0&showTitle=0&showNav=1&src=Y2F0c2ludG91bG91c2VAZ21haWwuY29t&src=ZW4tZ2IuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
       </section>
 
-      <section>
+      <section id="FAQ" class="row py-4 vh-100">
         <h2>FAQ</h2>
-        <div class="FAQ1">
+        <figure class="col text-center">
           <img src="./assets/casual-life-3d-young-woman-holding-blank-speech-bubble.png" alt="">
-          Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
-        </div>
-        <div class="FAQ2">
-          Accordeon
+          <figcaption>Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+        </figure>
+        <div class="col">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body d-flex">
+                  <strong>Security first!</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions., though the transition does limit overflow. <img src="./assets/casual-life-3d-doctor-sitting-on-the-floor-with-books.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
   </main>
-  <footer>
-    <a href="#">CatsInToulouse</a>
-    <h6>navigation</h6>
-    <a href="#">Socials</a>
-    <a target="_blank" href="https://icons8.com/icon/MR3dZdlA53te/linkedin"><img src="./assets/icons8-linkedin-94.png" alt=""></a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-    <a target="_blank" href="https://icons8.com/icon/nj0Uj45LGUYh/instagram"><img src="./assets/icons8-instagram-94.png" alt=""></a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-    <a target="_blank" href="https://icons8.com/icon/KxHlias9AgZt/twitter-circled"><img src="./assets/icons8-twitter-circled-94.png" alt=""></a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+  <footer class="bd-footer py-4 py-md-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a class="text-decoration-none" href="#">CatsInToulouse</a>
+        </div>
+          <div class="col">
+            <h5>navigation</h5>
+            <ul class="list-unstyled">
+              <li><a class="text-decoration-none" href="#Home">Home</a></li>
+              <li><a class="text-decoration-none" href="#About">About</a></li>
+              <li><a class="text-decoration-none" href="#Testimonies">Testimonies</a></li>
+              <li><a class="text-decoration-none" href="#Booking">Booking</a></li>
+              <li><a class="text-decoration-none" href="#FAQ">FAQ</a></li>
+            </ul>
+          </div>
+        <div class="col">
+          <h5>Socials</h5>
+          <ul class="list-unstyled">
+            <li><a target="_blank" href="https://icons8.com/icon/MR3dZdlA53te/linkedin"><img src="./assets/icons8-linkedin-94.png" alt=""></a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/nj0Uj45LGUYh/instagram"><img src="./assets/icons8-instagram-94.png" alt=""></a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/KxHlias9AgZt/twitter-circled"><img src="./assets/icons8-twitter-circled-94.png" alt=""></a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+          </ul>
+          
+          
+          
+        </div>
+      </div>
+    </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 </html>
