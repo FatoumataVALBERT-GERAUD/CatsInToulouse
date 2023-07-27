@@ -18,6 +18,15 @@ body {
   color: var(--text);
 }
 
+.navbar-brand {
+  font-family: var(--Poiret);
+  font-weight: bolder;
+}
+
+.main_image {
+  width: 35vw;
+}
+
 .card-img-bt {
   min-height: 28vh;
 }
